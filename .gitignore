@@ -1,0 +1,11 @@
+# Eclipse artifacts
+.project
+.pydevproject
+*.iml
+.idea/
+tmp/
+*.bak
+.DS_Store
+.tools
+.htmlproofer
+public
