@@ -1,6 +1,6 @@
 ---
 title: Release Notes
-description: Description of features and improvements for every Istio release.
+description: Description of features and improvements for every Alameda release.
 weight: 5
 type: section-index
 aliases:
@@ -11,20 +11,18 @@ aliases:
 toc: false
 ---
 
-The latest Istio snapshot release is {{< istio_version >}} ([release notes](/about/notes/{{< istio_version >}}/)). You can
-[download {{< istio_version >}}](https://github.com/istio/istio/releases) with:
+The latest Alameda snapshot release is {{< alameda_version >}} ([release notes](/about/notes/{{< alameda_version >}}/)). You can
+[download {{< alameda_version >}}](https://github.com/containers-ai/alameda/releases) with:
 
 ```command
-$ curl -L https://git.io/getLatestIstio | sh -
+$ curl -L https://git.io/getLatestAlameda | sh -
 ```
 
-The most recent stable release is 0.2.12. You can [download 0.2.12](https://github.com/istio/istio/releases/tag/0.2.12) with:
+The most recent stable release is 0.1. You can [download 0.1](https://github.com/containers-ai/alameda/releases/tag/0.1) with:
 
 ```command
-$ curl -L https://git.io/getIstio | sh -
+$ curl -L https://git.io/getAlameda | sh -
 ```
-
-[Archived documentation for the 0.2.12 release](https://archive.istio.io/v0.2/docs/).
 
 > As we don't control the `git.io` domain, please examine the output of the `curl` command before piping it to a shell if running in any
 sensitive or non-sandboxed environment.

@@ -6,11 +6,7 @@ aliases:
     - /docs/welcome/contribute/reviewing-doc-issues.html
 ---
 
-This page explains how documentation issues are reviewed and prioritized for the
-[istio/istio.github.io](https://github.com/istio/istio.github.io) repository.
-The purpose is to provide a way to organize issues and make it easier to contribute to
-Istio documentation. The following should be used as the standard way of prioritizing,
-labeling, and interacting with issues.
+This page explains how documentation issues are reviewed and prioritized.
 
 ## Prioritizing Issues
 

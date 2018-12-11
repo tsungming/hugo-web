@@ -7,14 +7,14 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark justify-content-between">
         <a class="navbar-brand" href="/">
-            <span class="logo">{{ partial "icons/istio-logo-blue-background-round.svg" }}</span>
+            <span class="logo">{{ partial "icons/alameda-logo-blue-background-round.svg" }}</span>
 
             {{ if .Site.Data.args.archive }}
-                <span class="brand-name">Istioldie {{ .Site.Data.args.version }}</span>
+                <span class="brand-name">Alamedaldie {{ .Site.Data.args.version }}</span>
             {{ else if .Site.Data.args.preliminary }}
-                <span class="brand-name">Istio Prelim {{ .Site.Data.args.version }}</span>
+                <span class="brand-name">Alameda Prelim {{ .Site.Data.args.version }}</span>
             {{ else }}
-                <span class="brand-name">Istio {{ .Site.Data.args.version }}</span>
+                <span class="brand-name">Alameda {{ .Site.Data.args.version }}</span>
             {{ end }}
         </a>
 
@@ -72,8 +72,8 @@
 
                         <li class="dropdown-divider"></li>
 
-                        <li><a href="https://github.com/istio/istio.github.io/issues/new?title=Issue%20with%20{{ .Page.Path}}">Report Site Bugs</a></li>
-                        <li><a href="https://github.com/istio/istio.github.io/edit/master/{{ .Page.Path }}">Edit this Page on GitHub</a></li>
+                        <li><a href="https://github.com/containers-ai/alameda.containers.ai/issues/new?title=Issue%20with%20{{ .Page.Path}}">Report Site Bugs</a></li>
+                        <li><a href="https://github.com/containers-ai/alameda.containers.ai/edit/master/{{ .Page.Path }}">Edit this Page on GitHub</a></li>
                    </ul>
                 </li>
 

@@ -1,21 +1,17 @@
 ---
 title: Style Guide
-description: Explains the dos and donts of writing Istio docs.
+description: Explains the dos and donts of writing Alameda docs.
 weight: 70
 aliases:
     - /docs/welcome/contribute/style-guide.html
     - /docs/reference/contribute/style-guide.html
 ---
 
-TBD: This needs to be updated with Istio examples instead of Kubernetes examples.
+TBD: This needs to be updated with Alameda examples instead of Kubernetes examples.
 
-This page gives writing style guidelines for the Istio documentation.
+This page gives writing style guidelines for the Alameda documentation.
 These are guidelines, not rules. Use your best judgment, and feel free to
 propose changes to this document in a pull request.
-
-For additional information on creating new content for the Istio
-docs, follow the instructions on
-[Creating a Doc Pull Request](/about/contribute/creating-a-pull-request/).
 
 ## Formatting standards
 
@@ -132,43 +128,9 @@ nginx    1/1       Running   0          13s    10.200.0.4   worker0
 
 Some standard terms we want to use consistently within the documentation for clarity.
 
-### Envoy
-
-We prefer to use “Envoy” as it’s a more concrete term than "proxy" and will resonate if used
-consistently throughout the docs.
-
-Synonyms:
-
-- “Envoy sidecar” - ok
-- “Envoy proxy” - ok
-- “The Istio proxy” -- best to avoid unless you’re talking about advanced scenarios where another proxy might be used.
-- “Sidecar”  -- mostly restricted to conceptual docs
-- “Proxy -- only if context is obvious
-
-Related Terms:
-
-- Proxy agent  - This is a minor infrastructural component and should only show up in low-level detail documentation.
-It is not a proper noun.
-
-### Mixer
-
-Mixer is a proper noun and should be used as such:
-
-- “You configure Mixer by ….”
-- “Mixer provides a standard vehicle for implementing organizational wide policy”
-
-### Attributes
-
-Not a proper noun but we should attempt to consistently use the term to describe inputs to Mixer and NOT use the term when talking about other
-forms of configuration.
-
 ### Load balancing
 
 No dash, it's *load balancing* not *load-balancing*.
-
-### Service mesh
-
-Not a proper noun. Use in place of service fabric.
 
 ### Service version
 
@@ -232,7 +194,7 @@ whether they're part of the "we" you're describing.
 |Do                                        | Don't
 |------------------------------------------|------
 |Version 1.4 includes ...                  | In version 1.4, we have added ...
-|Istio provides a new feature for ... | We provide a new feature ...
+|Alameda provides a new feature for ... | We provide a new feature ...
 |This page teaches you how to use pods.    | In this page, we are going to learn about pods.
 
 ### Avoid jargon and idioms

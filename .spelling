@@ -65,7 +65,6 @@ GATEWAY_URL
 GCP-IAM
 GCP_OPTS
 GKE-IAM
-GKE-Istio
 GKE-Workloads
 GitHub
 GlueCon
@@ -76,13 +75,8 @@ Hystrix
 ILBs
 IPs
 IPv4
-ISTIO_INBOUND_PORTS
 Incrementality
 Initializers
-Istio
-IstioMesh
-IstioRBAC.svg
-Istiofied
 JSON-formatted
 JWT
 JWTs
@@ -190,8 +184,6 @@ api.service
 api.version
 apiVersion
 arch.svg
-archive.istio.io
-archive.istio.io.
 attach_policies.png
 auth.svg
 authn.svg
@@ -231,8 +223,6 @@ coreos
 create_policy.png
 createpolicyjson.png
 createpolicystart.png
-current.istio.io
-current.istio.io.
 dataplane
 datastore
 debian
@@ -292,7 +282,6 @@ googleapis.com
 googlegroups.com
 goroutine
 goroutines
-grafana-istio-dashboard
 grpc
 helloworld
 hostIP
@@ -320,20 +309,6 @@ interoperate
 intra-cluster
 ip_address
 iptables
-istio
-istio-apiserver
-istio-system1
-istio.github.io
-istio.github.io.
-istio.io
-istio.io.
-istio.yaml
-istio_auth_overview.svg
-istio_auth_workflow.svg
-istio_grafana_dashboard-new
-istio_grafana_disashboard-new
-istio_zipkin_dashboard.png
-istioctl
 jaeger_dashboard.png
 jaeger_trace.png
 jason
@@ -387,7 +362,6 @@ nginx
 nginx-proxy
 nodePorts
 nodeport
-noistio.svg
 non-sandboxed
 ns
 oc
@@ -406,8 +380,6 @@ pre-specified
 preconfigured
 prefetching
 preformatted
-preliminary.istio.io
-preliminary.istio.io.
 prepends
 prober
 productpage
@@ -476,7 +448,6 @@ secretName
 selinux
 serviceaccount
 servicegraph-example
-setupIstioVM.sh
 setupMeshEx.sh
 sharded
 sharding
@@ -542,7 +513,6 @@ whitelist
 whitelists
 wikipedia.org
 wildcard
-withistio.svg
 www.google.com
 x-envoy-upstream-rq-timeout-ms
 x.509

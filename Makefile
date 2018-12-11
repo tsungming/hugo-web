@@ -30,22 +30,3 @@ build:
 
 ##########
 
-prep_lint:
-	npm install --prefix .tools/node markdown-spellcheck
-	gem install mdl
-	gem install html-proofer
-
-lint:
-	.tools/node/node_modules/markdown-spellcheck/bin/mdspell --en-us --ignore-acronyms --ignore-numbers --no-suggestions --report */*.md */*/*.md */*/*/*.md */*/*/*/*.md */*/*/*/*/*.md  */*/*/*/*/*/*.md  */*/*/*/*/*/*/*.md
-	mdl --ignore-front-matter --style mdl_style.rb .
-	htmlproofer ./public --check-html --assume-extension --timeframe 2d --storage-dir .htmlproofer --url-ignore "/localhost/,/github.com/istio/istio.github.io/edit/master/"
-
-prep_lint_local:
-	npm install --prefix .tools/node markdown-spellcheck
-	gem install mdl --install-dir .tools
-	gem install html-proofer --install-dir .tools
-
-lint_local:
-	.tools/node/node_modules/markdown-spellcheck/bin/mdspell --en-us --ignore-acronyms --ignore-numbers --no-suggestions --report */*.md */*/*.md */*/*/*.md */*/*/*/*.md */*/*/*/*/*.md  */*/*/*/*/*/*.md  */*/*/*/*/*/*/*.md
-	.tools/bin/mdl --ignore-front-matter --style mdl_style.rb .
-	.tools/bin/htmlproofer ./public --check-html --assume-extension --timeframe 2d --storage-dir .htmlproofer --url-ignore "/localhost/,/github.com/istio/istio.github.io/edit/master/"

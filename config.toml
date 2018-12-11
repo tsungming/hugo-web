@@ -1,7 +1,7 @@
 defaultContentLanguage = "en"
 languageCode = "en-us"
 metaDataFormat = "yaml"
-title = "Istio"
+title = "Alameda"
 uglyURLs = false
 enableRobotsTXT = true
 googleAnalytics = "UA-98480406-1"

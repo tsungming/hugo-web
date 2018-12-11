@@ -6,11 +6,11 @@ aliases:
     - /docs/welcome/contribute/writing-a-new-topic.html
 ---
 
-This page shows how to create a new Istio documentation topic.
+This page shows how to create a new Alameda documentation topic.
 
 ## Before you begin
 
-You first need to create a fork of the Istio documentation repository as described in
+You first need to create a fork of the Alameda documentation repository as described in
 [Creating a Doc Pull Request](/about/contribute/creating-a-pull-request/).
 
 ## Choosing a page type
@@ -21,8 +21,8 @@ is the best fit for your content:
 <table>
   <tr>
     <td>Concept</td>
-    <td>A concept page explains some significant aspect of Istio. For example, a concept page might describe the
-    Mixer's configuration model and explain some of its subtleties.
+    <td>A concept page explains some significant aspect of Alameda. For example, a concept page might describe the
+    Alameda's configuration model and explain some of its subtleties.
     Typically, concept pages don't include sequences of steps, but instead provide links to
     tasks that do.</td>
   </tr>
@@ -58,7 +58,7 @@ is the best fit for your content:
   <tr>
     <td>Blog Post</td>
     <td>
-      A blog post is a timely article on Istio or products and technologies related to it.
+      A blog post is a timely article on Alameda or products and technologies related to it.
     </td>
   </tr>
 </table>
@@ -104,21 +104,6 @@ matter fields are:
 |`attribution`  | For blog posts, supplies an optional author's name
 |`toc`          | Set this to false to prevent the page from having a table of contents generated for it
 |`force_inline_toc` | Set this to true to force the generated table of contents from being inserted inline in the text instead of in a sidebar
-
-## Choosing a directory
-
-Depending on your page type, put your new file in a subdirectory of one of these:
-
-- _blog/
-- _docs/concepts/
-- _docs/guides/
-- _docs/reference/
-- _docs/setup/
-- _docs/tasks/
-
-You can put your file in an existing subdirectory, or you can create a new
-subdirectory. For blog posts, put the file into a subdirectory for the current
-year (2017, 2018, etc)
 
 ## Adding images
 
@@ -269,11 +254,11 @@ You can pull in an external file and display its content as a preformatted block
 config file or a test file. To do so, you use a statement such as:
 
 ```markdown
-{{</* file_content url="https://raw.githubusercontent.com/istio/istio/master/Makefile" */>}}
+{{</* file_content url="https://raw.githubusercontent.com/containers-ai/alameda/master/operator/Makefile" */>}}
 ```
 which produces the following result:
 
-{{< file_content url="https://raw.githubusercontent.com/istio/istio/master/Makefile" >}}
+{{< file_content url="https://raw.githubusercontent.com/containers-ai/alameda/master/operator/Makefile" >}}
 
 If the file is from a different origin site, CORS should be enabled on that site. Note that the
 GitHub raw content site (raw.githubusercontent.com) is CORS
@@ -309,7 +294,7 @@ aliases:
 ```
 
 With the above in a page saved as _help/faq.md, the user will be able to access the page by going
-to `istio.io/help/faq/` as normal, as well as `istio.io/faq/`.
+to `alameda.containers.ai/help/faq/` as normal, as well as `alameda.containers.ai/faq/`.
 
 You can also add many redirects like so:
 
